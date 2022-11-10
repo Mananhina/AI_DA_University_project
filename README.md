@@ -1,2 +1,7 @@
-# AI_DA_University_project
-Решение задач на анализ данных и машинное обучение и отчет по ним для университетского проекта
+# Solving problems for data analysis and machine learning and report on them for a university project
+In task №4, I analyzed the dataset containing information about sales of video games of various genres, studios, release years, and so on (https://www.kaggle.com/datasets/gregorut/videogamesales).
+The main task is to build a classifier by the variable genre = "Sport". To solve it, I use the decision tree and random forest classifiers. The classifier at best works with an accuracy of 87%.
+
+In task №5 & №6, I analyzed the dataset containing information about forest fires in Brazil (https://www.kaggle.com/datasets/gustavomodelli/forest-fires-in-brazil).
+The solution to task №5 contains the analysis of the dataset, its variables, the presence of anomalous values, and so on. Analysis of the linear dependence of features, their significance, data preparation.
+In task №6, on the data prepared in the previous task, I built a linear regression that predicts the number of fires with an accuracy of 70%. I also decided to divide the objects into classes according to the number of fires. In order for the classifier to work correctly and take into account the disequilibrium of classes, we introduced an array of weights. The most effective number of classes turned out to be 2 - a fire hazardous situation and not. And the most efficient classifier is the decision tree. The accuracy in this case is 60%. At the same time, the model has a large pricision metric - for non-fire hazardous situations, which means that it rarely marks objects of another class as non-fire hazardous.
